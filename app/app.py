@@ -4,7 +4,8 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("model.pkl")  # This is correct if app.py and model.pkl are in the same folder
+
 
 # App layout
 st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
