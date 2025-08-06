@@ -28,7 +28,28 @@ This app predicts whether a customer is likely to churn based on their profile a
 - 🧠 **Machine Learning Model** – Trained using `scikit-learn` and saved using `joblib`.
 
 ---
+## 🧰 Tech Stack
 
+- **Python**
+- **Pandas, NumPy**
+- **Scikit-learn**
+- **Streamlit**
+- **Jupyter Notebooks**
+- **Matplotlib / Seaborn (for EDA)**
+
+---
+
+## 📸 App Screenshot
+
+Here’s what the app looks like:
+
+![App Screenshot](https://github.com/SIDDARTHAREDDY8/customer-churn-prediction/blob/main/images/Screenshot%202025-08-06%20at%205.40.57%E2%80%AFPM.png?raw=true)
+![App Screenshot](https://github.com/SIDDARTHAREDDY8/customer-churn-prediction/blob/main/images/Screenshot%202025-08-06%20at%205.46.40%E2%80%AFPM.png?raw=true)
+![App Screenshot](https://github.com/SIDDARTHAREDDY8/customer-churn-prediction/blob/main/images/Screenshot%202025-08-06%20at%205.46.53%E2%80%AFPM.png?raw=true)
+![App Screenshot](https://github.com/SIDDARTHAREDDY8/customer-churn-prediction/blob/main/images/Screenshot%202025-08-06%20at%205.47.46%E2%80%AFPM.png?raw=true)
+![App Screenshot](https://github.com/SIDDARTHAREDDY8/customer-churn-prediction/blob/main/images/Screenshot%202025-08-06%20at%205.47.53%E2%80%AFPM.png?raw=true)
+
+---
 ## 📁 Folder Structure
 
 customer-churn-prediction/
