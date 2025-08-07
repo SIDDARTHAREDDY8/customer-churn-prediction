@@ -17,15 +17,29 @@ It supports both **single customer prediction** and **batch predictions** via CS
 
 Customer churn is a critical issue in the telecom industry. Retaining existing customers is more cost-effective than acquiring new ones.  
 This app predicts whether a customer is likely to churn based on their profile and service usage.
-
 ---
-
 ## 🚀 Features
 
-- 🔍 **Single Prediction** – Predict churn for an individual customer via form inputs.
-- 📂 **Batch Prediction** – Upload a CSV file with customer details for bulk predictions.
-- 📊 **Interactive UI** – Built with Streamlit for a smooth user experience.
-- 🧠 **Machine Learning Model** – Trained using `scikit-learn` and saved using `joblib`.
+### 🔍 1. Single Prediction
+- Enter details of a single customer.
+- Get real-time churn prediction with probability score.
+- Simple and clean form interface.
+
+### 📂 2. Batch Prediction
+- Upload a CSV file of customer records.
+- Get churn predictions for the entire dataset.
+- Download results as a CSV with added predictions and probabilities.
+
+### 📊 3. Insights & Visualizations
+- Summary KPIs: Churn Rate, Monthly Charges, Tenure, Customer Count.
+- Interactive charts using **Plotly**:
+  - 📂 Contract Type vs Churn
+  - 💸 Monthly Charges vs Churn
+  - ⏳ Tenure Distribution by Churn
+  - 🌐 Internet Service vs Churn
+  - 🎬 StreamingTV & TechSupport vs Churn
+  - 🔥 Correlation Heatmap
+  - 🥧 Churn Pie Chart
 
 ---
 ## 🧰 Tech Stack
